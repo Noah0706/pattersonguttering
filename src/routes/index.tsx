@@ -116,7 +116,7 @@ function Index() {
               <Home className="size-5" />
             </span>
             <span className="font-display leading-tight">
-              <span className="block text-base font-700 tracking-wide uppercase">
+              <span className="block text-base font-bold tracking-wide uppercase">
                 Patterson
               </span>
               <span className="text-ink-muted block text-[0.62rem] tracking-[0.25em] uppercase">
