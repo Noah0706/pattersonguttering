@@ -157,3 +157,35 @@
     color: var(--color-foreground);
   }
 }
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.01em;
+  }
+}
+
+@utility eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 0.8rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--brand);
+}
+
+@utility surface-ink {
+  background-image: var(--gradient-ink);
+  color: var(--ink-foreground);
+}
+
+@utility surface-brand {
+  background-image: var(--gradient-brand);
+  color: var(--brand-foreground);
+}
