@@ -317,7 +317,7 @@ function Index() {
             </ul>
             <a
               href="#contact"
-              className="surface-brand font-display mt-9 inline-flex items-center gap-2 rounded-sm px-7 py-4 text-sm tracking-[0.12em] uppercase transition-transform hover:scale-[1.03]"
+              className="font-display text-brand inline-flex items-center gap-2 text-sm tracking-[0.12em] uppercase"
             >
               Request your free estimate <ArrowRight className="size-4" />
             </a>
